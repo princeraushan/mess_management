@@ -443,8 +443,3 @@ git push origin feature/your-feature-name
 
 ---
 
-<div align="center">
-
-built by **[Prashant Goyal](https://github.com/prashantgoyal7691)** · NIT Srinagar &nbsp;•&nbsp; give it a ⭐ if it helped you!
-
-</div>
