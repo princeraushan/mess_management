@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family:sans-serif;
+  cursor: default;
+}
+.input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f9fafb;
+}
+
+.input:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
+}
+
+.btn {
+  background-color: #22c55e;
+  color: white;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #16a34a;
+}
+
+@keyframes floatPhone {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(-8px, 10px); /* slight left-up */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.animate-floatPhone {
+  animation: floatPhone 2s ease-in-out infinite;
+}
+
+* {
+  caret-color: transparent;
+}
+input, textarea {
+  caret-color: auto;
+}
