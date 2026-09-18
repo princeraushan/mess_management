@@ -315,7 +315,7 @@ VITE_API_URL=http://localhost:5000/api
 ```bash
 POST /api/auth/register
 {
-  "name": "Prashant",
+  "name": "Raushan",
   "email": "2021bcs0@nitsri.ac.in",
   "password": "secure123",
   "rollNumber": "2021BCS042",
